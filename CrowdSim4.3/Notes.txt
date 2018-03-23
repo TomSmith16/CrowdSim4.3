@@ -1,0 +1,82 @@
+This Project:
+- More than 2 random navigation points
+	- changed flip-flop B to selecting a new point once it is reached and keep the cycle going rather than bounce between the two points.
+- Textures
+- Text overhead, trying to display variables from C++ class, might have to recreate PMME model as a Blueprint
+- Remodeled PMME as blueprint, now displays Briggsmyers personality type over character head.
+- Sphere colliders to detect collision, check what's actually printing to screen
+- Color change for mood based on happy, sad, implemented. Extrovert Introvert.
+- Extraversion (E)  
+	- MOOD AFFECT: Crowded feeling pushes towards pleasure contentment, <2 people around pushes towards distress depression
+- Introversion (I)
+	- MOOD AFFECT: Crowded feeling pushes towards distress depression  area, <2 people around pushes towards excitement, pleasure, arousal.
+
+
+- Intuition (N)
+	- MOOD AFFECT: May occasionally walk into people, may walk slower than others to demonstrate being in thought.
+
+- Thinking (T)
+	- MOOD AFFECT: When blocked in alleyway, mood will remain relatively similar, increase in alertness, will walk back out of the alley.
+- Feeling (F)
+	- MOOD AFFECT: When blocked in the alleyway, will try to run past blockage, mood will drop to distress/alertness		
+
+-Judging (J) 
+	- MOOD AFFECT: Will only change path after reaching destination, always will walk to reach destination.
+- Level: Skybox and River surrounding area, invisible walls between river and path to block
+
+- Energy > 40% pleasure up, under 40% pleasure down
+
+- Sort values out, fill the gaps in wtf image
+
+- AI checking to see if other AI is moving to a point, will change point accordingly
+
+- Perceiving (P)
+	- MOOD AFFECT: Can change path before reaching destination, will occassionally run for a short distance or jump, procrastination
+
+- Extraversion vs Feeling check for up-in-face box trigger, 
+
+ - Sensing (S) 
+	- MAKE LOOK AT OTHER AI CHARACTERS, THIRPERSON_ANIMBP, LOOKS AT PLAYER NOT AT AI
+
+- NARROW ALLEYWAY AFFECT THE AI MOODS, IN LINE WITH PURPOSE OF LEVEL DESIGN
+
+- ACTUAL MOMENTARY EMOTIONS BASED ON PLUTCHIKS WHEEL. SHORT TERM AFFECT ON MOOD. SEPARATE TEXT TO DISPLAY. THEN REVERT BACK AFTER SHORT PERIOD.
+	- Interaction to see personality and mood in popup, with emotions consistently above the head. 
+	- Two emotions showing at the same time concern, possible grid light-up method. 
+Sadness = Pleasure between certain values.
+Joy = Pleasure between certain values. 
+Anger = Judging (being blocked in their path) or any others (being blocked in their path for a certain amount of time).
+Boredom = 
+Visibility when in range
+E press toggles character profileon screen
+		Feeling (F)
+			MOOD AFFECT: When distressed will run away in opposite direction.
+
+	Momentary Emotions
+		Instantaneous reactions in character that will persist for a short amount of time. Need situations 	
+- Sort out shopkeepers looking at and conversating with AI/player
+
+ - Shopkeeper sprites separate, trigger visibility for each sprite depending on shopkeeper
+
+- AI to look at shopkeeps and other AI characters rather than player.
+
+HAVE PLEASURE/ALERTNESS AFFECTED BY SHOPKEEPER CONVERSATIONS IF IN FOR TOO LONG.
+
+To Do
+
+
+
+
+
+- Write up possible testing methods 
+
+
+
+--------------- GOAL STATES
+IF SAD MOVE TO WHATEVER WILL MAKE HAPPY
+
+IF TIRED MOVE TO HOUSE
+
+IF HAPPY TALK TO SHOPKEEPERS OR EACHOTHER
+
+HAVE GOALS DEPENDENT ON MOOD

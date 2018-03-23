@@ -1,0 +1,23 @@
+﻿  Creating makefile for hot reloading CrowdSimEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Parsing headers for CrowdSimEditor
+    Running UnrealHeaderTool "C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\CrowdSim.uproject" "C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Intermediate\Build\Win64\CrowdSimEditor\Development\CrowdSimEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CrowdSimEditor in 5.9797771 seconds
+  Performing 3 actions (2 in parallel)
+  PMME.cpp
+  CrowdSim.generated.cpp
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(42): error C2182: 'UPMME': illegal use of type 'void'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(42): error C2143: syntax error: missing ';' before ':'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(42): error C2059: syntax error: ':'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(43): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(45): error C4508: 'Personality': function should return a value; 'void' return type assumed
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(52): error C2182: 'UPMME': illegal use of type 'void'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(52): error C2086: 'int UPMME': redefinition
+  C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(42): note: see declaration of 'UPMME'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(52): error C2143: syntax error: missing ';' before ':'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(52): error C2059: syntax error: ':'
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(53): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Source\CrowdSim\PMME.cpp(55): error C4508: 'MomentaryEmotions': function should return a value; 'void' return type assumed
+ERROR : UBT error : Failed to produce item: C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\Binaries\Win64\UE4Editor-CrowdSim-2569.dll
+  Total build time: 18.69 seconds
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.14\Engine\Build\BatchFiles\Build.bat" CrowdSimEditor Win64 Development "C:\Users\Tom\Documents\Unreal Projects\CrowdSim2.4 Sem B\CrowdSim2.4 Sem B\CrowdSim.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

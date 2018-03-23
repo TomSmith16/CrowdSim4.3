@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-DA0D736F4409908C1BC2DE9DC76AA209_0000</CrashGUID>
+		<ProcessId>8472</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>7738</SecondsSinceStart>
+		<GameName>UE4-CrowdSim</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Dirty</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.14.3-3249277+++UE4+Release-4.14</EngineVersion>
+		<CommandLine>&quot;C:\Users\Tom\Documents\CrowdSim4.2\CrowdSim4.2\CrowdSim.uproject&quot;</CommandLine>
+		<LanguageLCID>2057</LanguageLCID>
+		<AppDefaultLocale>en_GB</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.14-CL-3249277</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Tom</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.14/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.14/</RootDir>
+		<MachineId>1243712F4F6DFA18C002F991002581D1</MachineId>
+		<EpicAccountId>51e0ae38cfaf4aaca7ef5aa72829bed9</EpicAccountId>
+		<CallStack />
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: NewObject-&gt;IsA(this-&gt;GeneratedClass) [File:D:\Build\++UE4+Release-4.14+Compile\Sync\Engine\Source\Runtime\Engine\Private\Blueprint.cpp] [Line: 717] &nl;Type mismatch: Expected ThirdPersonExampleMap_C, Found LevelScriptBlueprint&nl;</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>2</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+		<Misc.CPUBrand>AMD FX(tm)-4100 Quad-Core Processor</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>AMD Radeon HD 7900 Series</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 7</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor>Service Pack 1</Misc.OSVersionMinor>
+		<MemoryStats.TotalPhysical>8588324864</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>8796092891136</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>65536</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>8</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3606749184</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>8793733992448</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1641881600</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1653731328</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1533779968</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1552449536</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636284162403280000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 7 Service Pack 1 64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>

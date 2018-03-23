@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\CrowdSim.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{3568A5AF-87B8-4E7C-8CB3-21972AADF130}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CrowdSim.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\CrowdSimEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{CEE0AE0E-1511-4639-8B8F-66C43F355193}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\CrowdSim">
+			<UniqueIdentifier>{7B84DF02-BEBD-4FAB-87F7-07C1DCCE3609}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\CrowdSim\CrowdSim.Build.cs">
+			<Filter>Source\CrowdSim</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\CrowdSim\CrowdSim.cpp">
+			<Filter>Source\CrowdSim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrowdSim\CrowdSim.h">
+			<Filter>Source\CrowdSim</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\CrowdSim\PMME.cpp">
+			<Filter>Source\CrowdSim</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\CrowdSim\PMME.h">
+			<Filter>Source\CrowdSim</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

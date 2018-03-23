@@ -1,0 +1,6 @@
+-Look up Emotional Models/classes in UE4 youtube
+-Make list of best way to implement them based on findings and how to apply them to AI character and player, compare
+-Decide on specific way to measure emotions, scaling values for the 4 briggsmyers personalities?
+-Decide on colours for emotions and how best to represent it, and where.
+-Altering colours based on emotions in sim
+-Adobe Fuse/Mixamo for characters?
